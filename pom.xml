@@ -4,9 +4,17 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.example</groupId>
-  <artifactId>duddo_exercise</artifactId>
+  <groupId>com.seatrain.duddo.exercise</groupId>
+  <artifactId>duddo.exercise</artifactId>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>provider</module>
+    <module>duddo-demo-xml</module>
+    <module>dubbo-demo-xml-provider</module>
+    <module>duddo-demo-xml-consumer</module>
+    <module>demo-interface</module>
+  </modules>
 
 
 </project>
